@@ -1,0 +1,14 @@
+@use './h-fonts' as f ;
+
+body{
+    background-image: url(../../public/images/SL_WB_RainyHW_Wallpaper_04-2_AS1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+*{
+    font-family: f.$font-family;
+}
+
